@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">UAS_PEMROGAMANSELULER_42430024</string>
+    <string name="app_name">Katalog Island Hopping Labuan Bajo</string>
+    <string name="hint_search">Cari destinasi...</string>
+    <string name="btn_search">Cari</string>
+    <string name="btn_sort_az">A-Z</string>
+    <string name="btn_sort_za">Z-A</string>
+    <string name="label_no_result">Data tidak ditemukan</string>
 </resources>

@@ -15,7 +15,7 @@ import com.example.uas_pemrogamanseluler_42430024.model.Destination
 
 class MainActivity : AppCompatActivity() {
 
-    private val TAG = "42430024" // ⚠️ SUDAH SESUAI NIM KAMU
+    private val TAG = "42430024"
 
     private lateinit var rvDestinations: RecyclerView
     private lateinit var etSearch: EditText
@@ -209,4 +209,6 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
         Log.i(TAG, "MainActivity onDestroy")
     }
+
+    // Menyelesaikan fitur array, search, dan sort untuk Minggu 3 //
 }

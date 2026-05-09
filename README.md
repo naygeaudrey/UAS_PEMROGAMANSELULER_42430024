@@ -4,32 +4,25 @@
 
 ### *Jelajahi Keindahan Laut Flores dari Genggaman Tanganmu*
 
-![Kotlin](https://img.shields.io/badge/Kotlin-Android-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-IDE-3DDC84?style=flat-square&logo=androidstudio&logoColor=white)
-![XML](https://img.shields.io/badge/XML-Layout-0277BD?style=flat-square)
-![API](https://img.shields.io/badge/Min_SDK-API_24-orange?style=flat-square&logo=android)
-![Status](https://img.shields.io/badge/Status-UAS_Completed-success?style=flat-square)
-
 </div>
-
 ---
 
 ## 🪪 Identitas
 
-| Keterangan    | Detail                               |
-|---------------|--------------------------------------|
-| **Nama**      | *(Nama Lengkap)*                     |
-| **NIM**       | **42430024**                         |
-| **Mata Kuliah** | Pemrograman Seluler                |
-| **Tema**      | Katalog Destinasi Island Hopping     |
-| **Platform**  | Android                              |
-| **Bahasa**    | Kotlin + XML Layout                  |
+| Keterangan    | Detail                           |
+|---------------|----------------------------------|
+| **Nama**      | Nayge Audrey Jemahi              |
+| **NIM**       | **42430024**                     |
+| **Mata Kuliah** | Pemrograman Seluler              |
+| **Tema**      | Katalog Destinasi Island Hopping |
+| **Platform**  | Android                          |
+| **Bahasa**    | Kotlin + XML Layout              |
 
 ---
 
 ## I. Abstract
 
-Aplikasi **Island Hopping Labuan Bajo** merupakan aplikasi katalog destinasi wisata bahari berbasis Android. Dikembangkan menggunakan **Kotlin** dan **XML Layout**, aplikasi ini menyajikan 10 destinasi unggulan kawasan Labuan Bajo—Taman Nasional Komodo, Pink Beach, Pulau Padar, dan lainnya. Sistem mendukung pencarian destinasi menggunakan **Linear Search**, pengurutan nama menggunakan **Bubble Sort**, tampilan detail destinasi via **Intent**, serta pencatatan aktivitas melalui **Logcat** bertag NIM.
+Aplikasi **Island Hopping Labuan Bajo** merupakan aplikasi katalog destinasi wisata bahari berbasis Android. Dikembangkan menggunakan **Kotlin** dan **XML Layout**, aplikasi ini menyajikan 10 destinasi unggulan kawasan Labuan Bajo, Taman Nasional Komodo, Pink Beach, Pulau Padar, dan lainnya. Sistem mendukung pencarian destinasi menggunakan **Linear Search**, pengurutan nama menggunakan **Bubble Sort**, tampilan detail destinasi via **Intent**, serta pencatatan aktivitas melalui **Logcat** bertag NIM.
 
 **Keywords:** Android, Kotlin, ArrayList, Linear Search, Bubble Sort, Intent, RecyclerView, Logcat.
 
@@ -37,7 +30,7 @@ Aplikasi **Island Hopping Labuan Bajo** merupakan aplikasi katalog destinasi wis
 
 ## II. Introduction
 
-Proyek ini dibuat sebagai implementasi UAS mata kuliah **Pemrograman Seluler** dengan pendekatan *project-based learning*. Tema yang dipilih adalah katalog wisata **Island Hopping Labuan Bajo** karena kawasan ini merupakan salah satu destinasi prioritas pariwisata Indonesia yang kaya akan biodiversitas laut dan landmark alam ikonik.
+Proyek ini dibuat sebagai implementasi UAS mata kuliah **Pemrograman Seluler** dengan pendekatan *projectbased learning*. Tema yang dipilih adalah katalog wisata **Island Hopping Labuan Bajo** karena kawasan ini merupakan salah satu destinasi prioritas pariwisata Indonesia yang kaya akan biodiversitas laut dan landmark alam ikonik.
 
 Tujuan utama aplikasi ini adalah menampilkan informasi destinasi secara terstruktur, menyediakan fitur pencarian dan pengurutan data, serta memvisualisasikan alur navigasi antar halaman menggunakan Intent Android.
 
@@ -52,20 +45,6 @@ Aplikasi terdiri dari **dua halaman utama** yang saling terhubung melalui Intent
 | `MainActivity`   | Menampilkan katalog destinasi, fitur pencarian, dan sort A-Z / Z-A |
 | `DetailActivity` | Menampilkan detail lengkap destinasi yang dipilih                   |
 
-**Struktur package:**
-
-```
-com.as_pemrogamanseluler_42430024
-├── adapter/
-│   └── DestinasiAdapter.kt
-├── model/
-│   └── Destinasi.kt
-├── ui/
-│   ├── MainActivity.kt
-│   └── DetailActivity.kt
-└── utils/
-    └── DataDestinasiUtils.kt
-```
 
 ---
 
